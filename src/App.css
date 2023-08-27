@@ -1,0 +1,40 @@
+.App{
+  font-family: 'Times New Roman';
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  color: white;
+}
+main{
+  top:0px;
+  background-color: rgb(164, 201, 230);
+  /* height: 100vh; */
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+footer{
+  background-color: rgba(10, 8, 8,.25);
+  width: 100%;
+  height:20px;
+  position: absolute;
+  bottom: 0;
+  /* align-items: center; */
+  text-align: center;
+
+}
+
+
